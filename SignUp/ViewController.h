@@ -6,9 +6,15 @@
 //
 
 #import <UIKit/UIKit.h>
+@interface ViewController : UIViewController<UITextFieldDelegate>
 
-@interface ViewController : UIViewController
-
+@property (strong, nonatomic) IBOutlet UITextField *nameTextField;
+@property (strong, nonatomic) IBOutlet UITextField *idTextField;
+@property (strong, nonatomic) IBOutlet UITextField *pwTextField;
+@property (strong, nonatomic) IBOutlet UITextField *telTextField;
+@property (strong, nonatomic) IBOutlet UITextField *blogTextField;
+- (IBAction)signUpButton:(id)sender;
+@property (strong, nonatomic) IBOutlet UITextView *resulTextView;
 
 @end
 

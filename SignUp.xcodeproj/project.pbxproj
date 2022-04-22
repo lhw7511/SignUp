@@ -31,6 +31,7 @@
 		A6EA62362812689A0048C304 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A6EA62372812689A0048C304 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A6EA6240281269520048C304 /* background.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = background.jpeg; path = ../../../Downloads/Source/background.jpeg; sourceTree = "<group>"; };
+		A6EA6242281274C10048C304 /* Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Header.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +72,7 @@
 				A6EA622B281268960048C304 /* ViewController.h */,
 				A6EA622C281268960048C304 /* ViewController.m */,
 				A6EA622E281268970048C304 /* Main.storyboard */,
+				A6EA6242281274C10048C304 /* Header.h */,
 				A6EA62312812689A0048C304 /* Assets.xcassets */,
 				A6EA62332812689A0048C304 /* LaunchScreen.storyboard */,
 				A6EA62362812689A0048C304 /* Info.plist */,

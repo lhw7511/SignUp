@@ -12,11 +12,33 @@
 @end
 
 @implementation ViewController
+@synthesize nameTextField;
+@synthesize idTextField;
+@synthesize pwTextField;
+@synthesize telTextField;
+@synthesize blogTextField;
+@synthesize resulTextView;
+
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    /*
+    nameTextField.delegate = self;
+    idTextField.delegate = self;
+    pwTextField.delegate = self;
+    telTextField.delegate = self;
+    blogTextField.delegate = self;
+    */
 }
 
 
+- (IBAction)signUpButton:(id)sender {
+    resulTextView.text = [[NSString alloc]initWithFormat:@"%@님 가입을 환영합니다.",nameTextField.text];
+}
+//키보드 리턴키눌렀을시 딜리게이트
+- (BOOL)textFieldShouldReturn:(UITextField *)textField{
+    //키보드비활성화 -> 내리기
+    [textField resignFirstResponder];
+    return YES;
+}
 @end
