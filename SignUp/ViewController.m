@@ -41,4 +41,9 @@
     [textField resignFirstResponder];
     return YES;
 }
+
+//바탕화면 눌렀을때 키보드 내리기
+-(void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event{
+    [self.view endEditing: YES];
+}
 @end
